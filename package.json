@@ -13,7 +13,7 @@
     "pretest": "npm run-script lint && npm run-script checkStyle",
     "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test",
     "posttest": "./node_modules/.bin/istanbul check-coverage && rm -rf coverage",
-    "prepublish": "npm test && npm prune"
+    "prepublish": "npm prune"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
@@ -26,6 +26,9 @@
     "jshint": "^2.5.0",
     "jscs": "^1.4.5"
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:albertosouza/sails-emberjs-responses.git"
