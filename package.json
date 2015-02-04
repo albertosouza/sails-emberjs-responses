@@ -1,10 +1,10 @@
 {
   "name": "sails-emberjs-responses",
   "description": "A pack to change sails.js responses to ember.js compatible responses",
-  "version": "0.0.2",
+  "version": "0.2.0",
   "dependencies": {
     "async": "^0.9.0",
-    "lodash": "^2.4.1"
+    "lodash": "^3.0.1"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
   },
-  "author": "Alberto Souza <alberto.souza.99@gmail.com>",
+  "author": "Alberto Souza <contato@albertosouza.net>",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^1.18.2",
@@ -26,11 +26,11 @@
     "jshint": "^2.5.0",
     "jscs": "^1.4.5"
   },
-  "files": [
-    "lib"
-  ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:albertosouza/sails-emberjs-responses.git"
+    "url": "git@github.com:wejs/sails-emberjs-responses.git"
+  },
+  "sails": {
+    "isHook": true
   }
 }
